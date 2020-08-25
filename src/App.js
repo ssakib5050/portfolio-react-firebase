@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,38 +13,73 @@ import Resume from './components/Resume/Resume';
 import About from './components/About/About';
 import './App.css';
 
-function App() {
-  return (
-    <Router>
+class App extends React.Component{
+  constructor(){
+    super();
 
-        <Sidebar />
-        {/* <Home exact path="/home"/> */}
+    this.state = {
+      sidebar: true
+    }
+  }
 
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
+  sidebarToggle = () => {
+    this.setState({
+      sidebar: !this.state.sidebar
+    }) 
+  }
 
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
+  sidebarCheck = () => {
+    if(window.screen.availWidth > 786){
+      this.setState({sidebar: true});
+    }else{
+      this.setState({sidebar: false});
+    }
+  }
 
-          <Route exact path="/portfolio">
-            <Portfolio/>
-          </Route>
+  componentWillMount(){
+    this.sidebarCheck();
 
-          <Route exact path="/resume">
-            <Resume/>
-          </Route>
+    window.addEventListener('resize', () => {
+      this.sidebarCheck();
+    });
+  }
 
-          <Route exact path="/about">
-            <About/>
-          </Route>
+  render(){
+    console.log('Render');
+    return (
+      <Router>
+  
+          <Sidebar sidebar={this.state.sidebar} sidebarToggle={this.sidebarToggle}/>
+          {/* <Home exact path="/home"/> */}
+  
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+  
+            <Route exact path="/contact">
+              <Contact />
+            </Route>
+  
+            <Route exact path="/portfolio">
+              <Portfolio/>
+            </Route>
+  
+            <Route exact path="/resume">
+              <Resume/>
+            </Route>
+  
+            <Route exact path="/about">
+              <About/>
+            </Route>
+  
+          </Switch>
+  
+      </Router>
+    )
+  }
 
-        </Switch>
-
-    </Router>
-  );
+  
 }
 
 export default App;

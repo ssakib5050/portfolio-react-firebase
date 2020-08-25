@@ -6,15 +6,30 @@ import {
   Link,
   NavLink
 } from "react-router-dom";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+
 import './Sidebar.css';
 import { Scrollbars } from 'react-custom-scrollbars';
+
 
 
 class Sidebar extends React.Component{
 
   render(){
+    const {sidebar} = this.props;
+    const sidebarActive = sidebar ? 'active' : '';
+
+    console.log(this.props);
+    
     return(
-      <div className="sidebar">
+      <div className={"sidebar " + sidebarActive}>
+        <button className={"sidebar-btn " + sidebarActive} onClick={this.props.sidebarToggle}>
+          <FontAwesomeIcon icon={faBars}/>
+        </button>
+        
         <Scrollbars autoHide>
           <div className="sidebar-body">
             

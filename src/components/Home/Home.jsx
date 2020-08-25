@@ -5,13 +5,6 @@ import { faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-i
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import './Home.css';
 
-window.addEventListener('resize', () => {
-  // We execute the same script as before
-  let vh = window.innerHeight * 0.01;
-  document.documentElement.style.setProperty('--vh', `${vh}px`);
-
-  console.log('HI');
-});
 
 class Home extends React.Component{
   render(){
