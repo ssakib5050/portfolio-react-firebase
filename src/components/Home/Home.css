@@ -31,38 +31,57 @@ body{
   font-size: 20px;
   margin: 10px;
   border-radius: 10rem;
+ 
+  height: 35px;
+  width: 35px;
+  text-align: center; 
+  border: 2px solid #0084ff;
 }
-.fa-facebook{
-  margin: 10px;
+
+.home-social-icons li a{
+  display: block;
+  overflow: hidden;
+  margin-top: 5px;
+  height: 35px;
+  width: 35px;
+  position: relative;
+
+}
+
+.fa-facebook-f{
+  /* margin: 10px; */
   border-radius: 2rem;
-  font-size: 40px;
+  font-size: 25px;
   background: #fff;
   color: #0084ff;
   cursor: pointer;
+  
 }
-.fa-facebook:hover{
+.fa-facebook-f:hover{
   opacity: 0.8;
 }
-.fa-linkedin{
-  margin: 10px;
+.fa-linkedin-in{
+  /* margin: 10px; */
   border-radius: 2rem;
-  font-size: 40px;
+  font-size: 25px;
   background: #fff;
   color: #0084ff;
   cursor: pointer;
+  
 }
-.fa-linkedin:hover{
+.fa-linkedin-in:hover{
   opacity: 0.8;
 }
-.fa-github{
-  margin: 10px;
+.fa-github-alt{
+  /* margin: 10px; */
   border-radius: 2rem;
-  font-size: 40px;
+  font-size: 25px;
   background: #fff;
   color: #0084ff;
   cursor: pointer;
+  
 }
-.fa-github:hover{
+.fa-github-alt:hover{
   opacity: 0.8;
 }
 

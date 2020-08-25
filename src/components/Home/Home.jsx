@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faLinkedinIn, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
 import './Home.css';
 
@@ -16,19 +16,19 @@ class Home extends React.Component{
           <ul className="home-social-icons">
             <li>
               <a href="#">
-                <FontAwesomeIcon icon={faFacebook} />
+                <FontAwesomeIcon icon={faFacebookF} />
               </a>
             </li>
 
             <li>
               <a href="#">
-                <FontAwesomeIcon icon={faLinkedin} />
+                <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
             </li>
 
             <li>
               <a href="#">
-                <FontAwesomeIcon icon={faGithub} />
+                <FontAwesomeIcon icon={faGithubAlt} />
               </a>
             </li>
           </ul>
