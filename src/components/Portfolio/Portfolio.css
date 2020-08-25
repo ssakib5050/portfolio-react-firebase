@@ -15,12 +15,23 @@
 
 .portfolio-item{
   /* border: 1px solid red; */
-  width: 50%;
+  width: 100%;
   box-sizing: border-box;
   padding: 10px;
   cursor: pointer;
   transition: .1s ease;
 }
+@media only screen and (min-width: 786px) {
+  .portfolio-item{
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .portfolio-item{
+    width: 33.33%;
+  }
+}
+
 .portfolio-item:hover{
   opacity: 0.8;
 }
@@ -32,3 +43,4 @@
 .portfolio-item img{
   width: 100%;
 }
+

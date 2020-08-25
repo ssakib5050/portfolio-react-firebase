@@ -2,7 +2,6 @@ body{
   margin-left: 250px;
 }
 .container{
-  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,4 +64,10 @@ body{
 }
 .fa-github:hover{
   opacity: 0.8;
+}
+
+@media only screen and (max-width: 786px) {
+  body{
+    margin-left: 0px;
+  }
 }

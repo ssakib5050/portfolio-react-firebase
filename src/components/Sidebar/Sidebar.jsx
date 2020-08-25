@@ -21,8 +21,6 @@ class Sidebar extends React.Component{
   render(){
     const {sidebar} = this.props;
     const sidebarActive = sidebar ? 'active' : '';
-
-    console.log(this.props);
     
     return(
       <div className={"sidebar " + sidebarActive}>

@@ -26,16 +26,22 @@
 }
 
 .about-services{
-  /* border: 1px solid; */
   display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 786px) {
+  .about-services{
+    flex-direction: row;
+  }
 }
 .about-service{
-  /* border: 1px solid red; */
-  width: 50%;
+  width: 100%;
   padding: 10px;
   margin: 5px;
   border: 1px solid #ddd;
+  box-sizing: border-box;
 }
+
 .about-service-body{
   display: flex;
 }

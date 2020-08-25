@@ -25,8 +25,7 @@ class Resume extends React.Component{
 }
 
 function ProgressBar(props){
-  const {title, progress} = props
-  console.log(title, progress);
+  const {title, progress} = props;
 
   return(
     <div className="resume-item">

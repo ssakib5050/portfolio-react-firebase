@@ -29,7 +29,7 @@ class App extends React.Component{
   }
 
   sidebarCheck = () => {
-    if(window.screen.availWidth > 786){
+    if(window.innerWidth > 786){
       this.setState({sidebar: true});
     }else{
       this.setState({sidebar: false});
@@ -45,7 +45,6 @@ class App extends React.Component{
   }
 
   render(){
-    console.log('Render');
     return (
       <Router>
   
