@@ -9,9 +9,12 @@
 
   position: fixed;
   left: 0;
+  transition: .1s ease-in-out;
+  left: -250px;
 }
 .sidebar.active{
   width: 250px;
+  left: 0px;
 }
 .sidebar-btn{
   position: fixed;
@@ -27,6 +30,7 @@
   cursor: pointer;
   outline: 0;
   display: none;
+  transition: .1s ease-in-out;
 }
 .sidebar-btn.active{
   left: 250px;
