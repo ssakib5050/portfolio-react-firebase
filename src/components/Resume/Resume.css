@@ -1,0 +1,38 @@
+.resume{
+  padding: 30px;
+}
+.resume-header{
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.resume-body{
+  overflow: hidden;
+}
+.resume-item{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.progress-info{
+  overflow: hidden;
+}
+.progress-name{
+  float: left;
+  font-size: 20px;
+}
+.progress-percentage{
+  float: right;
+  font-size: 18px;
+}
+.progress-container{
+  background: #e9ecef;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+.progress-fill{
+  background: #0084ff;
+  width: 60%;
+  height: 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,51 @@
+.about{
+  padding: 30px;
+}
+.about-header{
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px; 
+}
+.about-title{
+  font-weight: 400;
+}
+/*
+.about-description{
+
+}
+*/
+.about-title-name{
+  color: #0084ff;
+}
+.about-table{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about-table tr td:nth-child(odd){
+  font-weight: bold;
+}
+
+.about-services{
+  /* border: 1px solid; */
+  display: flex;
+}
+.about-service{
+  /* border: 1px solid red; */
+  width: 50%;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+}
+.about-service-body{
+  display: flex;
+}
+.fa-palette, .fa-code{
+  font-size: 30px;
+  color: #0084ff;
+}
+.about-info{
+  padding-left: 10px;
+}
+.about-service-description{
+  margin-top: 10px;
+}
