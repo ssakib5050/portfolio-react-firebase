@@ -1,9 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Sidebar from './components/Sidebar/Sidebar';
 import Home from './components/Home/Home';
@@ -36,7 +35,7 @@ class App extends React.Component{
     }
   }
 
-  componentWillMount(){
+  componentDidMount(){
     this.sidebarCheck();
 
     window.addEventListener('resize', () => {
