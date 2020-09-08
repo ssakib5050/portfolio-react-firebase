@@ -9,8 +9,8 @@ class Portfolio extends React.Component{
 
         <div className="portfolio-items">
 
-          <PortfolioItem link="http://www.google.com" img="https://via.placeholder.com/480x360" title="Project SK"/>
-          <PortfolioItem link="http://www.facebook.com" img="https://via.placeholder.com/480x360" title="Project FB"/>
+          <PortfolioItem link="http://www.google.com" img="https://via.placeholder.com/480x360" title="Facebook v1 (Demo)"/>
+          <PortfolioItem link="http://www.facebook.com" img="https://via.placeholder.com/480x360" title="Facebook v2 (Demo)"/>
           <PortfolioItem link="http://www.yahoo.com" img="https://via.placeholder.com/480x360" title="Project YH"/>
           <PortfolioItem link="http://www.youtube.com" img="https://via.placeholder.com/480x360" title="Project YT"/>
     
@@ -20,6 +20,7 @@ class Portfolio extends React.Component{
   }
 }
 
+// External Function 
 function PortfolioItem(props){
   const {link, img, title} = props;
   return(

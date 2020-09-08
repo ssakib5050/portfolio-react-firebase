@@ -4,7 +4,7 @@
 .about-header{
   font-size: 30px;
   padding-top: 30px;
-  padding-bottom: 30px; 
+  padding-bottom: 10px; 
 }
 .about-title{
   font-weight: 400;
@@ -18,8 +18,7 @@
   color: #0084ff;
 }
 .about-table{
-  margin-top: 20px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .about-table tr td:nth-child(odd){
   font-weight: bold;
@@ -41,9 +40,18 @@
   border: 1px solid #ddd;
   box-sizing: border-box;
 }
+.about-table{
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 5px;
+}
 
 .about-service-body{
   display: flex;
+}
+.table-header{
+  font-size: 30px;
+  padding-top: 30px;
 }
 .fa-palette, .fa-code{
   font-size: 30px;

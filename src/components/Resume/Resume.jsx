@@ -6,7 +6,7 @@ class Resume extends React.Component{
   render(){
     return(
       <div className="resume">
-        <h2 className="resume-header">Portfolio</h2>
+        <h2 className="resume-header">Resume</h2>
 
         <div className="resume-body">
 
@@ -23,6 +23,7 @@ class Resume extends React.Component{
     )
   }
 }
+
 
 function ProgressBar(props){
   const {title, progress} = props;
