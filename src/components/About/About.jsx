@@ -22,7 +22,7 @@ class About extends React.Component {
             <h2 className="about-header">Contact</h2>
             <table className="about-table">
               <tbody>
-                <Row info="Email" answer="ssakib4050@gmail.com" />
+                <Row info="Email" answer="ssakib5050@gmail.com" />
                 <Row info="Facebook" answer="facebook.com/ssakib5050" />
                 <Row info="LinkedIn" answer="linkedin.com/ssakib5050" />
                 <Row info="Instagram" answer="instagram.com/ssaki54050" />
