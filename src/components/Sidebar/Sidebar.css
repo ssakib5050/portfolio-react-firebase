@@ -1,23 +1,23 @@
-.sidebar{
+.sidebar {
   border-right: 1px solid #bdc3c7;
   background: rgb(230, 236, 240);
   width: 0px;
   height: 100vh;
   box-sizing: border-box;
   overflow-x: hidden;
-  overflow-y:auto;
+  overflow-y: auto;
 
   position: fixed;
   left: 0;
-  transition: .1s ease-in-out;
+  transition: 0.1s ease-in-out;
   left: -250px;
   z-index: 999;
 }
-.sidebar.active{
+.sidebar.active {
   width: 250px;
   left: 0px;
 }
-.sidebar-btn{
+.sidebar-btn {
   position: fixed;
   left: 0px;
   font-size: 20px;
@@ -31,50 +31,50 @@
   cursor: pointer;
   outline: 0;
   display: none;
-  transition: .1s ease-in-out;
+  transition: 0.1s ease-in-out;
 }
-.sidebar-btn.active{
+.sidebar-btn.active {
   left: 250px;
 }
-.sidebar-body{
+.sidebar-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
-.sidebar-header{
+.sidebar-header {
   padding: 30px;
   border-bottom: 1px solid #bdc3c7;
 }
-.sidebar-image{
-  width: 100%;
+.sidebar-image {
   padding: 5px;
   box-sizing: border-box;
   border-radius: 10rem;
   border: 3px solid #0084ff;
+  height: 190px;
+  width: 190px;
 }
-.sidebar-ul{
+.sidebar-ul {
   /* border: 2px solid green; */
   margin-bottom: 50px;
 }
-.sidebar-ul li a.active{
+.sidebar-ul li a.active {
   background: #0084ff;
   color: white;
-
 }
-.sidebar-ul li{
+.sidebar-ul li {
   /* border: 1px solid; */
   /* padding: 10px; */
   text-align: center;
   cursor: pointer;
-  transition: .1s ease;
+  transition: 0.1s ease;
 }
-.sidebar-ul li:hover{
-  background:  #0084ff;
+.sidebar-ul li:hover {
+  background: #0084ff;
   color: white;
   opacity: 0.8;
 }
-.sidebar-ul li a{
+.sidebar-ul li a {
   color: black;
   text-decoration: none;
 
@@ -82,22 +82,20 @@
   overflow: hidden;
   padding: 10px;
 }
-.sidebar-ul li:hover a{
+.sidebar-ul li:hover a {
   color: white;
 }
-.sidebar-copyright{
-  border-top: 1px solid #bdc3c7; 
+.sidebar-copyright {
+  border-top: 1px solid #bdc3c7;
   padding: 10px;
 }
-.sidebar-copyright p{
+.sidebar-copyright p {
   text-align: center;
   font-weight: bold;
 }
 
-
-
 @media only screen and (max-width: 786px) {
-  .sidebar-btn{
+  .sidebar-btn {
     display: block;
   }
 }

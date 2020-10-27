@@ -21,6 +21,7 @@
   cursor: pointer;
   transition: 0.1s ease;
   position: relative;
+  height: 315px;
 }
 .portfolio-item:hover .protfolio__icon {
   display: block;
@@ -47,6 +48,7 @@
 
 .portfolio-item img {
   width: 100%;
+  height: calc(100% - 15px);
 }
 
 .protfolio__icon {
