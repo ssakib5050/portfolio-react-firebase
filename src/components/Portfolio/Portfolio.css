@@ -22,6 +22,7 @@
   transition: 0.1s ease;
   position: relative;
   height: 315px;
+  margin-bottom: 3rem;
 }
 .portfolio-item:hover .protfolio__icon {
   display: block;
