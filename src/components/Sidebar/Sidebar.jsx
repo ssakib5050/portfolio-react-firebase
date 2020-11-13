@@ -26,7 +26,7 @@ class Sidebar extends React.Component {
             {/* Top Part  */}
             <div className="sidebar-header">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-92c60.appspot.com/o/22688473_484769155239918_4777493516804340989_n.jpg?alt=media&token=7119844f-d1bd-495e-9fce-11785c5309d4"
+                src="https://firebasestorage.googleapis.com/v0/b/react-portfolio-92c60.appspot.com/o/22688473_484769155239918_4777493516804340989_n.jpg?alt=media&token=5dd16e30-98ee-4ded-a655-d76dd4982013"
                 alt=""
                 className="sidebar-image"
               />
