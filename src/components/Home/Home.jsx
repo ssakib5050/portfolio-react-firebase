@@ -1,44 +1,49 @@
 import React from "react";
+import "./Home.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebookF,
-  faLinkedinIn,
-  faGithubAlt,
-} from "@fortawesome/free-brands-svg-icons";
-// import { faAddressBook } from '@fortawesome/free-solid-svg-icons'
-import "./Home.css";
 
 class Home extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="container dev home__wrap justify-content-center align-items-center d-flex flex-column">
         <div>
-          <h1 className="home-title">
-            My Name is <span className="home-title-name">Sadman Sakib</span>
+          <h1 className="home__heading text-center mb-0">
+            My name is
+            <span className="home__heading_color"> Sadman Sakib</span>
           </h1>
-          <h3 className="home-subtitle">
+          <p className="home__para text-center  mb-2">
             I am a fullstack web developer(Frontend + Backend)
-          </h3>
-          <ul className="home-social-icons">
-            <li>
-              <a href="http://www.facebook.com/sakib.5050" target="_blank">
-                <FontAwesomeIcon icon={faFacebookF} />
-              </a>
-            </li>
+          </p>
+        </div>
 
-            <li>
-              <a href="https://www.linkedin.com/in/ssakib5050/" target="_blank">
-                <FontAwesomeIcon icon={faLinkedinIn} />
-              </a>
-            </li>
+        <div className="d-flex">
+          <div className="home__icon_wrap" target="_blank">
+            <a href="http://www.facebook.com/sakib.5050">
+              <FontAwesomeIcon
+                icon={["fab", "facebook-f"]}
+                className="home__icon"
+              />
+            </a>
+          </div>
 
-            <li>
-              <a href="https://github.com/ssakib5050" target="_blank">
-                <FontAwesomeIcon icon={faGithubAlt} />
-              </a>
-            </li>
-          </ul>
+          <div className="home__icon_wrap" target="_blank">
+            <a href="https://www.linkedin.com/in/ssakib5050/">
+              <FontAwesomeIcon
+                icon={["fab", "linkedin-in"]}
+                className="home__icon"
+              />
+            </a>
+          </div>
+
+          <div className="home__icon_wrap">
+            <a href="https://github.com/ssakib5050" target="_blank">
+              <FontAwesomeIcon
+                icon={["fab", "github-alt"]}
+                className="home__icon"
+              />
+            </a>
+          </div>
         </div>
       </div>
     );
