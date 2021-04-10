@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
 
 // import Sidebar from "./components/Sidebar/Sidebar";
-import Home from "./components/Home/Home";
+// import Home from "./components/Home/Home";
 // import Portfolio from "./components/Portfolio/Portfolio";
 // import Contact from "./components/Contact/Contact";
-import Resume from "./components/Resume/Resume";
-// import About from "./components/About/About";
+// import Resume from "./components/Resume/Resume";
+import About from "./components/About/About";
 
 import "./App.css";
 
@@ -21,7 +21,8 @@ const App = () => {
       {/* <Home /> */}
       {/* <Portfolio /> */}
       {/* <Contact /> */}
-      <Resume />
+      {/* <Resume /> */}
+      <About />
     </div>
   );
 };
