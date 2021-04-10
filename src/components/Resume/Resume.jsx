@@ -4,17 +4,18 @@ import "./Resume.css";
 class Resume extends React.Component {
   render() {
     return (
-      <div className="resume">
-        <h2 className="resume-header">Resume</h2>
+      <div>
+        <h1 className="font-weight-bold my-5 ">Resume</h1>
 
-        <div className="resume-body">
+        <div>
           <ProgressBar title="HTML5" progress="95" />
-          <ProgressBar title="CSS3" progress="88" />
-          <ProgressBar title="JAVASCRIPT" progress="82" />
-          <ProgressBar title="JQUERY" progress="80" />
-          <ProgressBar title="BOOTSTRAP" progress="78" />
-          <ProgressBar title="PHP" progress="75" />
-          <ProgressBar title="REACT" progress="84" />
+          <ProgressBar title="CSS3" progress="82" />
+          <ProgressBar title="JAVASCRIPT" progress="80" />
+          <ProgressBar title="JQUERY" progress="92" />
+          <ProgressBar title="BOOTSTRAP" progress="85" />
+          <ProgressBar title="PHP" progress="78" />
+          <ProgressBar title="Wordpress" progress="83" />
+          <ProgressBar title="REACT" progress="82" />
           <ProgressBar title="NODEJS" progress="74" />
           <ProgressBar title="MONGODB" progress="80" />
           <ProgressBar title="FIREBASE" progress="79" />
