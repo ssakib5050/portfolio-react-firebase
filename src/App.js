@@ -1,28 +1,48 @@
 import React, { useState, useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
 
-// import Sidebar from "./components/Sidebar/Sidebar";
-// import Home from "./components/Home/Home";
-// import Portfolio from "./components/Portfolio/Portfolio";
-// import Contact from "./components/Contact/Contact";
-// import Resume from "./components/Resume/Resume";
+import { useSelector, useDispatch } from "react-redux";
+import { sidebarOff, sidebarOn } from "./reducers/sidebarSlice";
+
+import Sidebar from "./components/Sidebar/Sidebar";
+import Home from "./components/Home/Home";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Contact from "./components/Contact/Contact";
+import Resume from "./components/Resume/Resume";
 import About from "./components/About/About";
 
 import "./App.css";
 
 const App = () => {
-  // useEffect(() => {
-  //   window.addEventListener('resize', () => {
-  //     console.log('resizing');
-  //   });
-  // }, [])
+  const sidebar = useSelector((state) => state.sidebar.value);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    app_resize();
+    window.addEventListener("resize", (e) => {
+      app_resize();
+    });
+  }, []);
+
+  function app_resize() {
+    console.log(window.innerWidth < 768);
+    if (window.innerWidth < 768) {
+      dispatch(sidebarOff());
+    } else {
+      dispatch(sidebarOn());
+    }
+  }
+
   return (
-    <div className="container-fluid dev">
-      {/* <Home /> */}
-      {/* <Portfolio /> */}
-      {/* <Contact /> */}
-      {/* <Resume /> */}
-      <About />
+    <div className="container-fluid  rootContainer">
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/portfolio" component={Portfolio} exact />
+        <Route path="/contact" component={Contact} exact />
+        <Route path="/resume" component={Resume} exact />
+        <Route path="/about" component={About} exact />
+      </Switch>
+      <Sidebar />
     </div>
   );
 };

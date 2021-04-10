@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class Home extends React.Component {
   render() {
     return (
-      <div className="container dev home__wrap justify-content-center align-items-center d-flex flex-column">
+      <div className="container home__wrap justify-content-center align-items-center d-flex flex-column">
         <div>
           <h1 className="home__heading text-center mb-0">
             My name is
@@ -18,8 +18,8 @@ class Home extends React.Component {
         </div>
 
         <div className="d-flex">
-          <div className="home__icon_wrap" target="_blank">
-            <a href="http://www.facebook.com/sakib.5050">
+          <div className="home__icon_wrap">
+            <a href="http://www.facebook.com/sakib.5050" target="_blank">
               <FontAwesomeIcon
                 icon={["fab", "facebook-f"]}
                 className="home__icon"
@@ -27,8 +27,8 @@ class Home extends React.Component {
             </a>
           </div>
 
-          <div className="home__icon_wrap" target="_blank">
-            <a href="https://www.linkedin.com/in/ssakib5050/">
+          <div className="home__icon_wrap">
+            <a href="https://www.linkedin.com/in/ssakib5050/" target="_blank">
               <FontAwesomeIcon
                 icon={["fab", "linkedin-in"]}
                 className="home__icon"

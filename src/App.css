@@ -2,7 +2,16 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 
+@media (min-width: 768px) {
+  .rootContainer {
+    padding-left: 250px;
+  }
+}
+
 .dev {
   border: 2px solid red;
-  box-sizing: border-box;
+}
+
+.dev2 {
+  border: 2px solid green;
 }

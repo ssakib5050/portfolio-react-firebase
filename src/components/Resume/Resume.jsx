@@ -4,7 +4,7 @@ import "./Resume.css";
 class Resume extends React.Component {
   render() {
     return (
-      <div>
+      <div className="px-5">
         <h1 className="font-weight-bold my-5 ">Resume</h1>
 
         <div>

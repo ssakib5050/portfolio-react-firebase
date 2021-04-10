@@ -6,7 +6,7 @@ import "./Portfolio.css";
 
 const Portfolio = () => {
   return (
-    <div>
+    <div className="px-5">
       <h1 className="font-weight-bold my-5 ">Portfolio</h1>
 
       <div className="portfolio__item_wrap ">
