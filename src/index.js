@@ -8,8 +8,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 // FontAwesomeIcon
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import {} from "@fortawesome/free-solid-svg-icons";
-library.add(fab);
+import { faLink } from "@fortawesome/free-solid-svg-icons";
+library.add(fab, faLink);
 
 ReactDOM.render(
   <React.StrictMode>
