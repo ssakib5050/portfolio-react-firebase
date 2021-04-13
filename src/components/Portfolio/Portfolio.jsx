@@ -14,31 +14,26 @@ const Portfolio = () => {
           <PortfolioItem
             image="https://firebasestorage.googleapis.com/v0/b/react-portfolio-92c60.appspot.com/o/Scresgsgsgswtyenshot.png?alt=media&token=1eb8c8ae-1823-4c9d-8d71-e23f7b54f440"
             title="✅Facebook v2 UI Clone (Demo)"
-            title="✅Facebook v2 UI (Demo)"
             link="https://facebook-react-firebase-2.web.app/login"
           />
           <PortfolioItem
             image="https://firebasestorage.googleapis.com/v0/b/react-portfolio-92c60.appspot.com/o/dg1d21g2d1gd251g.png?alt=media&token=e18aca42-501f-43aa-aa32-466731ad9b4d"
             title="✅Facebook v1 UI Clone (Demo)"
-            title="✅Facebook v1 UI (Demo)"
             link="https://facebook-clone-v1.web.app/"
           />
           <PortfolioItem
             image="https://firebasestorage.googleapis.com/v0/b/react-portfolio-92c60.appspot.com/o/Scresfsfenshot.png?alt=media&token=5aceb7a6-5b07-415b-be9d-be4940a6e295"
             title="✅Instagram UI Clone (Demo)"
-            title="✅Instagram UI (Demo)"
             link="https://instagram-react-firebase-a25ec.web.app/"
           />
           <PortfolioItem
             image="https://firebasestorage.googleapis.com/v0/b/react-portfolio-92c60.appspot.com/o/Firefox_Screenshot_2020-11-13T13-49-03.911Z.png?alt=media&token=87ce1ba9-6fe5-4a52-9f73-c1ace7a1e0d9"
             title="✅Twitter UI Clone (Demo)"
-            title="✅Twitter UI (Demo)"
             link="https://twitter-react-firebase-c8ca2.web.app/"
           />
           <PortfolioItem
             image="https://firebasestorage.googleapis.com/v0/b/react-portfolio-92c60.appspot.com/o/fsgzsyhryeybr6ty5rty.png?alt=media&token=12a278aa-f5ed-4694-a91c-937dc479a098"
             title="✅Messenger UI Clone (Demo)"
-            title="✅Messenger UI (Demo)"
             link="https://fbmessenger-react-firebase.web.app/"
           />
           <PortfolioItem
