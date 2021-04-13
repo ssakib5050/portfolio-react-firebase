@@ -10,19 +10,19 @@ function Contact() {
         <tbody>
           <tr>
             <th scope="row">Email</th>
-            <td>ssakib5050@gmail.com</td>
+            <td>alisohrab5050@gmail.com</td>
           </tr>
           <tr>
             <th scope="row">Facebook</th>
-            <td>http://facebook.com/ssakib5050</td>
+            <td>https://www.facebook.com/profile.php?id=100066087566338</td>
           </tr>
           <tr>
             <th scope="row">LinkedIn</th>
-            <td>http://linkedin.com/ssakib5050</td>
+            <td>https://www.linkedin.com/in/sohrab-ali-30377120b/</td>
           </tr>
           <tr>
             <th scope="row">Instagram</th>
-            <td>http://instagram.com/ssakib5050</td>
+            <td>https://www.instagram.com/alisohrab5050/</td>
           </tr>
         </tbody>
       </table>
