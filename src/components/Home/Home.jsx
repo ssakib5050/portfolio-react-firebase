@@ -10,7 +10,7 @@ class Home extends React.Component {
         <div>
           <h1 className="home__heading text-center mb-0">
             My name is
-            <span className="home__heading_color"> Sadman Sakib</span>
+            <span className="home__heading_color"> Sohrab Ali</span>
           </h1>
           <p className="home__para text-center  mb-2">
             I am a fullstack web developer(Frontend + Backend)
@@ -19,7 +19,10 @@ class Home extends React.Component {
 
         <div className="d-flex">
           <div className="home__icon_wrap">
-            <a href="http://www.facebook.com/sakib.5050" target="_blank">
+            <a
+              href="https://www.facebook.com/profile.php?id=100066087566338"
+              target="_blank"
+            >
               <FontAwesomeIcon
                 icon={["fab", "facebook-f"]}
                 className="home__icon"
@@ -28,7 +31,10 @@ class Home extends React.Component {
           </div>
 
           <div className="home__icon_wrap">
-            <a href="https://www.linkedin.com/in/ssakib5050/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/sohrab-ali-30377120b"
+              target="_blank"
+            >
               <FontAwesomeIcon
                 icon={["fab", "linkedin-in"]}
                 className="home__icon"
@@ -37,7 +43,7 @@ class Home extends React.Component {
           </div>
 
           <div className="home__icon_wrap">
-            <a href="https://github.com/ssakib5050" target="_blank">
+            <a href="https://github.com/alisohrab5050" target="_blank">
               <FontAwesomeIcon
                 icon={["fab", "github-alt"]}
                 className="home__icon"
